@@ -51,6 +51,7 @@ namespace CudaRasterizer
 			const bool prefiltered,
 			float* out_color,
 			float* out_language_feature,
+			float* out_alpha,
 			int* radii = nullptr,
 			bool debug = false,
 			bool include_feature = false);
